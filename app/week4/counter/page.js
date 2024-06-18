@@ -7,11 +7,14 @@ import Counter from "./counter";
 export default function CounterPage() {
 
     const [counter, setCounter] = useState(0);
+    const [timeCheck, setTimeCheck] = useState("");
 
     
     const incrementCounter = () => {
         let currentCount = counter;
         setCounter(currentCount + 1);
+        setTimeCheck("new time");
+        // counter = counter + 1; // don't do this
     }
 
 
