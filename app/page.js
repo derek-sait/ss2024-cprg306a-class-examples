@@ -16,6 +16,8 @@ export default function Home() {
         <li><Link className={linkStyles} href="./week4/functions">Week 4 - Functions</Link></li>
         <li><Link className={linkStyles} href="./week4/counter">Week 4 - Counter</Link></li>
         <li><Link className={linkStyles} href="./week4/managed_form">Week 4 - Dog Form</Link></li>
+        <li><Link className={linkStyles} href="./week5/arrays">Week 5 - Array Mutation</Link></li>
+        <li><Link className={linkStyles} href="./week5/contact">Week 5 - Contacts Filter/Sort</Link></li>
       </ul>
     </main>
   );
