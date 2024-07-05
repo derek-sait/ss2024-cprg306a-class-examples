@@ -19,6 +19,7 @@ export default function Home() {
         <li><Link className={linkStyles} href="./week5/arrays">Week 5 - Array Mutation</Link></li>
         <li><Link className={linkStyles} href="./week5/contact">Week 5 - Contacts Filter/Sort</Link></li>
         <li><Link className={linkStyles} href="./week6/">Week 6 - Managing State</Link></li>
+        <li><Link className={linkStyles} href="./week7/">Week 7 - Fetching Data</Link></li>
       </ul>
     </main>
   );
